@@ -1,0 +1,3 @@
+[submodule "external/emu_core"]
+	path = external/emu_core
+	url = https://github.com/Vicara12/GameBoyEmulator
