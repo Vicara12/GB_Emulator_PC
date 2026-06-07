@@ -1,3 +1,30 @@
+# 🕹️ SlimBoy: a highly efficient and customizable DMG emulator! (PC Interface)
+
+This is the PC interface for SlimBoy, a classic Game Boy emulator (DMG) focused on two aspects: efficiency and portability.
+For more details, such as list of supported and incoming features, as well as information on the
+emulation core, refer to the [SlimBoy repo](https://github.com/Vicara12/SlimBoy_GameBoyEmulator).
+
+If you found this project interesting or built something cool with it, please give it a star!
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/tetris.gif?raw=true" width="300" /></td>
+    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/pokemon.gif?raw=true" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Tetris</strong></td>
+    <td align="center"><strong>Pokémon Red</strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/zelda.gif?raw=true" width="300" /></td>
+    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/mario.gif?raw=true" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Link's Awakening</strong></td>
+    <td align="center"><strong>Super Mario Land</strong></td>
+  </tr>
+</table>
+
 
 ## How to build and run the project
 
