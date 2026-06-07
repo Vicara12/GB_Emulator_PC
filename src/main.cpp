@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <thread>
+#include <iostream>
+#include <format>
 #include "interface/interfaceadapter.h"
 #include "program/program.h"
 #include "emulator/emulator.h"
@@ -21,7 +23,7 @@ int main (int argc, char **argv) {
   }
   gb::EmulatorConfig config = {
     .synch_execution = true,
-    .skip_boot_room = false
+    .skip_boot_room = true
   };
   sf::RenderWindow window = createWindow(PX_WIDTH);
   PCInterface interface;
