@@ -8,11 +8,11 @@ If you found this project interesting or built something cool with it, please gi
 
 <table>
   <tr>
-    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/tetris.gif?raw=true" width="300" /></td>
+    <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/vrally.gif?raw=true" width="300" /></td>
     <td><img src="https://github.com/Vicara12/SlimBoy_GameBoyEmulator/blob/master/res/pokemon.gif?raw=true" width="300" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Tetris</strong></td>
+    <td align="center"><strong>V-Rally Championship</strong></td>
     <td align="center"><strong>Pokémon Red</strong></td>
   </tr>
   <tr>
