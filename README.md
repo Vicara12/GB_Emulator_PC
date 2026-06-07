@@ -32,7 +32,7 @@ Install SFML. If on Debian you can do this via `sudo apt install libsfml-dev`.
 
 Clone the project and the emulator submodule
 ```bash
-git clone --recursive https://github.com/Vicara12/GameBoyEmulator
+git clone --recursive https://github.com/Vicara12/GB_Emulator_PC
 ```
 
 In the repo's root folder run
