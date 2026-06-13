@@ -41,9 +41,9 @@ void drawScreen (sf::RenderWindow &window, PCInterface &interface) {
   for (uint i = 0; i < gb::SCREEN_PX_H; i++) {
     for (uint j = 0; j < gb::SCREEN_PX_W; j++) {
       sf::RectangleShape square(sf::Vector2f(px_size, px_size));
-      square.setFillColor(sf::Color(85 * (3 - (*px_intensity)[i].pixel[j]),
-                                    85 * (3 - (*px_intensity)[i].pixel[j]),
-                                    85 * (3 - (*px_intensity)[i].pixel[j])));
+      square.setFillColor(sf::Color(85 * (3 - (*px_intensity)[i][j]),
+                                    85 * (3 - (*px_intensity)[i][j]),
+                                    85 * (3 - (*px_intensity)[i][j])));
       square.setPosition(j * px_size, i * px_size);
       window.draw(square);
     }
