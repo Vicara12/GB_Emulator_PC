@@ -27,6 +27,6 @@ int main (int argc, char **argv) {
   };
   sf::RenderWindow window = createWindow(PX_WIDTH);
   PCInterface interface;
-  std::thread emulation_thread(gb::emulator<PCInterface>, std::ref(interface), game_rom, config);
+  std::thread emulation_thread(gb::emulator<PCInterface>, std::ref(interface), game_rom, config, nullptr);
   interfaceLoop(interface, emulation_thread, window);
 }
