@@ -89,16 +89,32 @@ bool handleInputs (sf::RenderWindow &window, PCInterface &interface) {
 }
 
 
+bool handleEmuPause (bool p_pressed, PCInterface &interface) {
+  bool pressed_now = sf::Keyboard::isKeyPressed(sf::Keyboard::P);
+  if (p_pressed and not pressed_now) {
+    if (interface.emulationStopRequested()) {
+      interface.resumeEmulation();
+    }
+    else {
+      interface.pauseEmulation();
+    }
+  }
+  return pressed_now;
+}
+
+
 void interfaceLoop (
   PCInterface &interface,
   std::thread &emulation_thread,
   sf::RenderWindow &window
 ) {
   auto &audio_stream = interface.getAudioStream();
+  bool p_pressed = false;
   audio_stream.play();
 
   // Main loop to render the window
   while (window.isOpen()) {
+    p_pressed = handleEmuPause(p_pressed, interface);
     bool exit = handleInputs(window, interface);
     // Audio is handled automatically by the audio stream in if_data
     drawScreen(window, interface);
